@@ -14,6 +14,9 @@ training_data.append({"class":"work", "sentence":"get it done by midnight"})
 training_data.append({"class":"work", "sentence":"boss is angry"})
 training_data.append({"class":"work", "sentence":"get that report"})
 training_data.append({"class":"work", "sentence":"team coordination is of utmost importance"})
+training_data.append({"class":"work", "sentence":"call me asap"})
+training_data.append({"class":"work", "sentence":"need to talk"})
+training_data.append({"class":"work", "sentence":"come to my office"})
 
 training_data.append({"class":"home", "sentence":"Son failed at school"})
 training_data.append({"class":"home", "sentence":"Bring vegetables while coming back"})
@@ -40,7 +43,8 @@ training_data.append({"class":"travel", "sentence":"hotels have been booked"})
 training_data.append({"class":"travel", "sentence":"get a good hotel"})
 training_data.append({"class":"travel", "sentence":"lets go for some sightseeing"})
 training_data.append({"class":"travel", "sentence":"look at that skyscraper"})
-
+training_data.append({"class":"travel", "sentence":"hey what plans for vacation"})
+training_data.append({"class":"travel", "sentence":"let's go"})
 
 
 training_data.append({"class":"spam", "sentence":"buy a credit card"})
@@ -52,6 +56,7 @@ training_data.append({"class":"spam", "sentence":"hey beautiful wanna hang out?"
 training_data.append({"class":"spam", "sentence":"get this offer"})
 training_data.append({"class":"spam", "sentence":"hey wassup"})
 training_data.append({"class":"spam", "sentence":"cool offer coming up here"})
+training_data.append({"class":"spam", "sentence":"STFU"})
 
 #print ("%s sentences of training data" % len(training_data))
 
