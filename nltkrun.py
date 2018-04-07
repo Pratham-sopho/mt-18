@@ -42,11 +42,19 @@ training_data.append({"class":"travel", "sentence":"lets go for some sightseeing
 training_data.append({"class":"travel", "sentence":"look at that skyscraper"})
 
 
-#
-#training_data.append({"class":"spam", "sentence":"buy a credit card"})
-#training_data.append({"class":"spam", "sentence":"can you m"})
-#training_data.append({"class":"spam", "sentence":"having a spam today?"})
-#training_data.append({"class":"spam", "sentence":"what's for lunch?"})
+
+training_data.append({"class":"spam", "sentence":"buy a credit card"})
+training_data.append({"class":"spam", "sentence":"can you m"})
+training_data.append({"class":"spam", "sentence":"having a spam today?"})
+training_data.append({"class":"spam", "sentence":"what's for lunch?"})
+training_data.append({"class":"spam", "sentence":"get this sim"})
+training_data.append({"class":"spam", "sentence":"sir i want to apply for an internship"})
+training_data.append({"class":"spam", "sentence":"hey beautiful wanna hang out?"})
+training_data.append({"class":"spam", "sentence":"get this offer"})
+training_data.append({"class":"spam", "sentence":"hey!"})
+training_data.append({"class":"spam", "sentence":"hey wassup"})
+training_data.append({"class":"spam", "sentence":"cool offer coming up here"})
+
 #print ("%s sentences of training data" % len(training_data))
 
 # capture unique stemmed words in the training corpus
