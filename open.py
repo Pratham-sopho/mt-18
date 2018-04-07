@@ -23,7 +23,7 @@ def strip_tags(html):
     return s.get_data()
 
 def mainMessage():
-    time.sleep(10)
+    time.sleep(8)
     rightChatBoxes = driver.find_elements_by_css_selector(".CxUIE")
 
     print(rightChatBoxes)
@@ -37,7 +37,7 @@ def mainMessage():
         rightChatBox.click()
 
         if i == 1:
-            time.sleep(10)
+            time.sleep(8)
             i = i+1
 
         messages = driver.find_elements_by_css_selector(".ZhF0n")[-no_messages:]
